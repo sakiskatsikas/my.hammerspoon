@@ -4,6 +4,7 @@ require "apps"
 
 hs.loadSpoon("MiroWindowsManager")
 hs.loadSpoon("WindowScreenLeftAndRight")
+hs.loadSpoon("MouseCircle")
 hs.window.animationDuration = 0.05
 spoon.MiroWindowsManager:bindHotkeys({
   up = {hyper, "up"},
@@ -16,6 +17,10 @@ spoon.MiroWindowsManager:bindHotkeys({
 spoon.WindowScreenLeftAndRight:bindHotkeys({
   screen_left = { hyper, "," },
   screen_right= { hyper, "." },
+})
+
+spoon.MouseCircle:bindHotkeys({
+  show = { hyper, "m" },
 })
 
 hs.hotkey.bind(hyper, 't', function() hs.execute('trash', true) end)
