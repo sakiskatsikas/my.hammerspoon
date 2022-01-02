@@ -17,3 +17,4 @@ hs.hotkey.bind(hyper, "p", function() toggleApplication("System Preferences") en
 hs.hotkey.bind(hyper, "t", function() toggleApplication("iTerm2") end)
 hs.hotkey.bind(hyper, "h", function() toggleApplication("Affinity Photo") end)
 hs.hotkey.bind(hyper, "d", function() toggleApplication("Affinity Designer") end)
+hs.hotkey.bind(hyper, "f13", function() toggleApplication("Calculator") end)
